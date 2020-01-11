@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Blood_And_Glucose_UpdateActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+            <Button
+                android:id="@+id/updatebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shapes"
+                android:text="Update"
+                android:textColor="@color/colorWhite"
+                android:layout_marginStart="105dp"
+                />
+
+            <Button
+                android:id="@+id/progresbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shapes"
+                android:text="Progress"
+                android:textColor="@color/colorWhite"
+                android:layout_marginStart="10dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+
+            >
+            <EditText
+                android:id="@+id/editdate"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/items"
+                android:textSize="20sp"
+                android:text="27/1/2019"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood Pressure:"
+                android:textSize="18dp"
+                android:textStyle="bold"
+
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorRed"/>
+
+            <EditText
+                android:id="@+id/Syastolic"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:inputType="number"
+                android:backgroundTint="@color/items"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="10dp"
+                android:hint=" 120"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  /  "
+                android:textStyle="bold"
+                android:textSize="18dp"
+                />
+            <EditText
+                android:id="@+id/diastolic"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:backgroundTint="@color/items"
+                android:hint=" 80"
+                android:layout_marginStart="10dp"
+
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pulse rate:           "
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorRed"/>
+
+            <EditText
+                android:id="@+id/PulseRate"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/items"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="30dp"
+                android:hint=" ...bpm"
+                android:inputType="number"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood Glucose  "
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorRed"/>
+
+            <EditText
+                android:id="@+id/BloodGlucose"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/items"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="40dp"
+                android:hint="....."/>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height:"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorRed"/>
+
+            <EditText
+                android:id="@+id/Height"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="105dp"
+                android:backgroundTint="@color/items"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:hint=" ...cm"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight "
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorRed"/>
+
+            <EditText
+                android:id="@+id/Weight"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/items"
+                android:hint=" ...kg"
+                android:layout_marginStart="104dp"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="10dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Body Mass Index:"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorRed"/>
+
+            <TextView
+                android:id="@+id/Bodymass_index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30"
+                android:textSize="18sp"
+                android:layout_marginStart="85dp"
+                android:textColor="@android:color/black"
+                android:inputType="number"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Case :"
+                android:textSize="18dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorRed"/>
+
+            <TextView
+                android:id="@+id/BMI_Case"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obese"
+                android:layout_marginStart="170dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Urination:"
+            android:textColor="@color/colorRed"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of urinations:"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorRed"/>
+
+            <EditText
+                android:id="@+id/urinationn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/items"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="10dp"
+                android:hint=" ..."/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="urine color: "
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorRed"/>
+
+            <Spinner
+                android:id="@+id/uricolors_spinner"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:textColor="@color/colorRed"
+
+                />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Water:"
+            android:textColor="@color/colorRed"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount of water:"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorRed"/>
+
+            <EditText
+                android:id="@+id/wateramount"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:backgroundTint="@color/items"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:hint=" ...L"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Note : It's alwayes better to drink 8 glasses of water per day"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorRed"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

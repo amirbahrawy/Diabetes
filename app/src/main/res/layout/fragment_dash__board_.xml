@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Dash_Board_Fragment">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+     <LinearLayout
+         android:id="@+id/firstrow"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:orientation="horizontal"
+         android:padding="20dp"
+         android:layout_marginTop="8dp"
+         >
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="40"
+             android:layout_marginTop="10dp"
+             android:text="Blood pressure :"
+             android:textStyle="bold"
+             android:textSize="18sp"
+             android:textColor="@color/colorRed"/>
+
+         <TextView
+             android:id="@+id/blood"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="30"
+             android:layout_marginTop="10dp"
+             android:text="  120 / 80"
+             android:textColor="@color/black"
+             android:textSize="20sp" />
+
+
+
+         <Button
+             android:id="@+id/Blood_U"
+             android:layout_width="0dp"
+             android:layout_height="48dp"
+             android:layout_gravity="top"
+             android:layout_marginStart="30dp"
+             android:background="@drawable/shapes"
+             android:layout_weight="30"
+             android:text="Update"
+             android:textSize="16dp"
+             android:textColor="@color/colorWhite"/>
+     </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/secondrow"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:orientation="horizontal"
+         android:padding="20dp"
+        >
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="50"
+             android:text="Glucose :"
+             android:textSize="18sp"
+             android:textStyle="bold"
+             android:layout_marginTop="10dp"
+             android:textColor="@color/colorRed"/>
+         <TextView
+             android:id="@+id/Glucose"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="20"
+             android:text="50"
+             android:layout_marginTop="10dp"
+             android:textSize="20sp"
+             android:textColor="@color/black"/>
+
+         <Button
+             android:id="@+id/Glucose_U"
+             android:layout_width="0dp"
+             android:layout_height="48dp"
+             android:layout_gravity="top"
+             android:layout_marginStart="30dp"
+             android:background="@drawable/shapes"
+             android:layout_weight="30"
+             android:text="Update"
+             android:textSize="16dp"
+             android:textColor="@color/colorWhite"/>
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/thirdrow"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:orientation="horizontal"
+         android:padding="20dp"
+         >
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="50"
+             android:text="Body mass index :"
+             android:textSize="18sp"
+             android:textStyle="bold"
+             android:layout_marginTop="10dp"
+             android:textColor="@color/colorRed"/>
+         <TextView
+             android:id="@+id/Bodymass"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="20"
+             android:text="30"
+             android:layout_marginTop="10dp"
+             android:textSize="20sp"
+             android:textColor="@color/black"/>
+
+         <Button
+             android:id="@+id/Bodymass_U"
+             android:layout_width="0dp"
+             android:layout_height="48dp"
+             android:layout_gravity="top"
+             android:layout_marginStart="30dp"
+             android:background="@drawable/shapes"
+             android:layout_weight="30"
+             android:text="Update"
+             android:textSize="16dp"
+             android:textColor="@color/colorWhite"/>
+     </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/fourthrow"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:orientation="horizontal"
+         android:padding="20dp"
+        >
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="50"
+             android:text="Urination :"
+             android:textStyle="bold"
+             android:textSize="18sp"
+             android:layout_marginTop="10dp"
+             android:textColor="@color/colorRed"/>
+         <TextView
+             android:id="@+id/Urination"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="20"
+             android:text="3"
+             android:layout_marginTop="10dp"
+             android:textSize="20sp"
+             android:textColor="@color/black"/>
+
+         <Button
+             android:id="@+id/Urination_U"
+             android:layout_width="0dp"
+             android:layout_height="48dp"
+             android:layout_gravity="top"
+             android:layout_marginStart="30dp"
+             android:background="@drawable/shapes"
+             android:layout_weight="30"
+             android:text="Update"
+             android:textSize="16dp"
+             android:textColor="@color/colorWhite"/>
+
+
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/fifthrow"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:orientation="horizontal"
+         android:padding="20dp"
+         >
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="50"
+             android:text="water amount :"
+             android:textSize="18sp"
+             android:textStyle="bold"
+             android:layout_marginTop="10dp"
+             android:textColor="@color/colorRed"/>
+         <TextView
+             android:id="@+id/Wateramount"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="20"
+             android:text="2"
+             android:layout_marginTop="10dp"
+             android:textSize="20sp"
+             android:textColor="@color/black"/>
+
+         <Button
+             android:id="@+id/Wateramount_U"
+             android:layout_width="0dp"
+             android:layout_height="48dp"
+             android:layout_gravity="top"
+             android:layout_marginStart="30dp"
+             android:background="@drawable/shapes"
+             android:layout_weight="30"
+             android:text="Update"
+             android:textSize="16dp"
+             android:textColor="@color/colorWhite"/>
+     </LinearLayout>
+ </LinearLayout>
+
+</FrameLayout>

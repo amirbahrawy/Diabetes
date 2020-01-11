@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A1DEFF</color>
+    <color name="colorPrimaryDark">#FF2196F3</color>
+    <color name="colorAccent">#FF2196F3</color>
+    <color name="colorRed">#2C70CE</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorYellow">#FFFF00</color>
+    <color name="colorBox">#0091EA</color>
+    <color name="colorttext">#08000000</color>
+    <color name="emergancy">#FF1A00</color>
+    <color name="tab">#2C70CE</color>
+    <color name="items">#FF2196F3</color>
+    <color name="black">#000000</color>
+    <color name="dangrous">#D50000</color>
+    <color name="excallent">#33691E</color>
+    <color name="highblood">#FF7043</color>
+    <color name="highblood2">#FF8A80</color>
+    <color name="orange_urine">#F57F17</color>
+    <color name="brown">#A52A2A</color>
+    <color name="black_urine">#757575</color>
+    <color name="pink_urine">#FF1744</color>
+    <color name="blue_urine">#006064</color>
+    <color name="gray">#808080</color>
+</resources>

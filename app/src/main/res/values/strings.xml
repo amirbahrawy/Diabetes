@@ -1,0 +1,290 @@
+<resources>
+    <string name="app_name">Diatrack</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="channel_name">Notes app notifications</string>
+    <string name="channel_description">this channel to show notes app notifications</string>
+    <string-array name="UrineColor">
+        <item>Orange</item>
+        <item>Dark Brown</item>
+        <item>Black</item>
+        <item>Pink / Red</item>
+        <item>Blue / Green</item>
+        <item>White / Milky</item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="MaritalStatus">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Engaged</item>
+    </string-array>
+    <string-array name="health_tips">
+
+        <item>Obesity</item>
+        <item>High blood pressure</item>
+        <item>Low blood pressure</item>
+        <item>High glucose</item>
+        <item>Urination </item>
+    </string-array>
+    <string-array name="obesity">
+        <item>Foods to reduce</item>
+        <item>The dietary approach to stop hypertension (DASH) plan</item>
+        <item>The Mediterranean diet</item>
+        <item>The paleolithic (paleo) diet</item>
+        <item>The gluten-free diet</item>
+        <item>Vegetarian and vegan diets</item>
+        <item>The takeaway</item>
+    </string-array>
+    <string-array name="obesity_texts">
+        <item>
+            For people with diabetes, there are certain foods that should be limited.
+            These foods can cause spikes in the blood sugar or contain unhealthy fats.
+They include:
+•	processed grains, such as white rice or white pasta
+•	fruits with added sweeteners, including apple sauce, jam, and some canned fruits
+•	full-fat dairy
+•	fried foods or foods high in trans fats or saturated fats
+•	foods made with refined flour
+•	any food with a high glycemic load
+</item>
+        <item>The DASH plan was originally developed to help treat or prevent high blood pressure (hypertension), but it may also reduce the risk of other diseases, including diabetes. It may have the additional benefit of helping you lose weight. People following the DASH plan are encouraged to reduce portion sizes and eat foods rich in blood pressure-lowering nutrients, such as potassium, calcium, and magnesium.
+The DASH eating plan includes:
+•	lean protein: fish, poultry
+•	plant-based foods: vegetables, fruits, beans, nuts, seeds
+•	dairy: fat-free or low-fat dairy products
+•	grains: whole grains
+•	healthy fats: vegetable oils
+</item>
+        <item>The Mediterranean diet is inspired by traditional foods from the Mediterranean. This diet is rich in oleic acid, a fatty acid that occurs naturally in animal and vegetable-based fats and oils. Countries that are known for eating according to this diet pattern include Greece, Italy, and Morocco.
+A Mediterranean-type diet may be successful in lowering fasting glucose levels, reducing body weight, and reducing the risk of metabolic disorder, according to a study in Diabetes Spectrum.
+Foods eaten on this diet include:
+•	Protein: poultry, salmon and other fatty fish, eggs
+•	Plant-based foods: fruits, vegetables like artichokes and cucumbers, beans, nuts, seeds
+•	Healthy fats: olive oil, nuts such as almonds
+Red meat may be consumed once per month. Wine may be consumed in moderation, as it may boost heart health. Remember to never drink on an empty stomach if you are on medications that raise the level of insulin in the body.
+</item>
+        <item>The paleo diet centers on the belief that modern agriculture is to blame for chronic disease. Followers of the paleo diet eat only what our ancient ancestors would have been able to hunt and gather.
+Foods eaten on the paleo diet include:
+•	Protein: meat, poultry, fish
+•	Plant-based foods: no starchy vegetables, fruits, seeds, nuts (excluding peanuts)
+•	Healthy fats: olive oil, avocado oil, coconut oil, flaxseed oil, walnut oil
+The paleo diet may be a good option for people with diabetes as long as the person does not have kidney disease. According to a three-month study in the Journal of Diabetes Science and Technology Trusted Source, a paleo diet may improve glycemic control in the short term for people with type 2 diabetes.
+</item>
+        <item>Gluten-free diets have become trendy, but for people with celiac disease, eliminating gluten from the diet is necessary to avoid damage to the colon and body. Celiac disease is an autoimmune disorder that causes your immune system to attack your gut and nervous system. It also promotes body-wide inflammation, which could lead to chronic disease.
+Gluten is a protein found in wheat, rye, barley, and all foods made from these grains. According to the American Diabetes Association, 10 percent of those with type 1 diabetes also have celiac disease.
+Ask your doctor for a blood test for celiac disease. Even if it comes back negative, you could still be intolerant to gluten. Talk with your doctor about whether a gluten-free diet is right for you.
+While anyone with diabetes can take up a gluten-free diet, it may add unnecessary restrictions for those without celiac disease. It’s also important to remember that gluten-free is not synonymous with low carb. There are plenty of processed, high-sugar, gluten-free foods. There is usually no need to complicate meal planning by eliminating gluten unless you need to.
+</item>
+        <item>Some people with diabetes focus on eating vegetarian or vegan diets. Vegetarian diets typically refer to diets where no meat is eaten, but animal products like milk, eggs, or butter can be consumed. Vegans will not eat meat or any other type of animal product, including honey, milk, or gelatin.
+Foods that are healthy for vegetarians and vegans with diabetes include:
+•	beans
+•	soy
+•	dark, leafy vegetables
+•	nuts
+•	legumes
+•	fruits
+•	whole grains
+While vegetarian and vegan diets can be healthy diets to follow, those who follow them may be missing out on vital nutrients if they aren’t careful.
+Some nutrients vegetarians or vegans may need to obtain through supplements include:
+•	Calcium. Found largely in animal products like dairy, calcium is an important nutrient that contributes to the health of bones and teeth. Broccoli and kale can help provide necessary calcium, but supplements may be needed in a vegan diet.
+•	Iodine. Required for metabolizing food into energy, iodine is predominantly found in seafood. Without these animal products in their diets, vegetarians and vegans may have trouble getting enough of the necessary iodine. Supplements can be beneficial.
+•	B-12: Since only animal products have vitamin B-12, a supplement may be necessary for those following a strict vegetarian diet.
+•	Zinc: The main source of zinc comes from high protein animal products, and a supplement may be advised for those on a vegetarian diet.
+</item>
+        <item>In addition to choosing the right diet, regular exercise is crucial to the health of those with diabetes. Exercise can help lower your blood sugar and A1C levels, which can help you to avoid complications.
+Even if you’re seeing improvement with regular exercise, do not change your prescribed insulin regimen without consulting your doctor. Test prior to, during, and after exercise if you are on insulin and adding or making changes to your exercise program. This is true even if you think the insulin is causing you to gain weight. Changing your insulin plan could have a dangerous effect on your blood sugar levels. These changes could cause life-threatening complications.
+If you are concerned about your weight, speak with a doctor or nutritionist. They can help you find the diet suited to your specific nutritional needs and weight loss goals. They will also help prevent complications from diets and pills that may interact with prescription medication.
+</item>
+    </string-array>
+    <string-array name="High_blood_pressure">
+        <item>1. Walk and exercise regularly</item>
+        <item>2. Reduce your sodium intake</item>
+        <item>3. Drink less alcohol</item>
+        <item>4. Eat more potassium-rich foods</item>
+        <item>5. Cut back on caffeine</item>
+        <item>6. Learn to manage stress</item>
+        <item>7. Eat dark chocolate or cocoa</item>
+        <item>8. Lose weight</item>
+        <item>9. Quit smoking</item>
+        <item>10. Cut added sugar and refined carbs</item>
+    </string-array>
+    <string-array name="Low_blood_pressure">
+        <item>1. Eat more salt</item>
+        <item>2. Avoid alcoholic beverages</item>
+        <item>3. Discuss medications with a doctor</item>
+        <item>4. Cross legs while sitting</item>
+        <item>5. Drink water</item>
+        <item>6. Eat small meals frequently</item>
+        <item>7. Wear compression stockings</item>
+        <item>8. Avoid sudden position changes</item>
+        <item>9. Be aware of symptoms</item>
+
+    </string-array>
+    <string-array name="low_blood_texts">
+       <item>•	Contrary to popular advice, low-sodium diets are not good for everyone with blood pressure problems.
+•	People with low blood pressure should consider increasing their sodium intake moderately to help raise blood pressure.
+</item>
+        <item>•	Alcohol can lower blood pressure further, so people with low blood pressure should avoid drinking excessive amounts of alcohol.</item>
+        <item>•	Low blood pressure can be a side effect of a variety of medications.
+•	If symptoms of low blood pressure begin after starting a medication, a person should discuss the symptoms with their doctor.
+</item>
+        <item>•	Crossing the legs while sitting has been shown to increase blood pressure. For people with high blood pressure, this can be a problem.
+•	For people with low blood pressure symptoms, crossed legs may help increase blood pressure with minimal effort.
+</item>
+        <item>•	Drinking more water can help increase blood volume, which can aleviate one of the potential causes of low blood pressure. It can also help avoid dehydration.</item>
+        <item>•	Eating smaller, more frequent meals throughout the day may help with low blood pressure.
+•	This is because the smaller meals help prevent a drop in a blood pressure associated with eating larger, heavier meals.
+</item>
+        <item>•	Compression stockings help reduce the amount of blood that gets caught in the lower legs and feet, so shifting it elsewhere.
+•	Compression stockings are also used to help relieve pressure and pain associated with varicose veins. They are available to purchase online.
+</item>
+        <item>•	Sitting up or standing up rapidly can cause a feeling of lightheadedness, dizziness, or potential fainting in people with low blood pressure.
+•	In these cases, the heart has not pumped enough blood through the body quickly enough to account for the sudden change in position or elevation.
+</item>
+        <item>•	Low blood pressure is only considered a problem if symptoms exist. If there are no symptoms present, low blood pressure should be taken as a sign of good health.
+•	It is important for a person to know the symptoms and what to look out for if their low blood pressure starts to cause problems.
+</item>
+
+    </string-array>
+    <string-array name="High_glucose">
+        <item>1. Exercise Regularly</item>
+        <item>2. Control Your Carb Intake</item>
+        <item>3. Increase Your Fiber Intake</item>
+        <item>4. Drink Water and Stay Hydrated</item>
+        <item>5. Implement Portion Control</item>
+        <item>6. Choose Foods With a Low Glycemic Index</item>
+        <item>7. Control Stress Levels</item>
+        <item>8. Monitor Your Blood Sugar Levels</item>
+        <item>9. Get Enough Quality Sleep</item>
+        <item>10. Eat Foods Rich in Chromium and Magnesium</item>
+
+    </string-array>
+    <string-array name="high_glucose_texts">
+      <item>Regular exercise can help you lose weight and increase insulin sensitivity.
+Increased insulin sensitivity means your cells are better able to use the available sugar in your bloodstream.
+Exercise also helps your muscles use blood sugar for energy and muscle contraction.
+If you have problems with blood sugar control, you should routinely check your levels. This will help you learn how you respond to different activities and keep your blood sugar levels from getting either too high or too low.
+Good forms of exercise include weight lifting, brisk walking, running, biking, dancing, hiking, swimming and more.
+BOTTOM LINE: Exercise increases insulin sensitivity and helps your muscles pick up sugars from the blood. This can lead to reduced blood sugar levels.
+</item>
+        <item>Your body breaks carbs down into sugars (mostly glucose), and then insulin moves the sugars into cells.
+When you eat too many carbs or have problems with insulin function, this process fails and blood glucose levels rise.
+Some studies find that these methods can also help you plan your meals appropriately, which may further improve blood sugar control.
+Many studies also show that a low-carb diet helps reduce blood sugar levels and prevent blood sugar spikes.
+Whats more, a low-carb diet can help control blood sugar levels in the long run.
+BOTTOM LINE: Carbs are broken down into glucose, which raises blood sugar levels. Reducing carbohydrate intake can help with blood sugar control.
+</item>
+        <item>Fiber slows carb digestion and sugar absorption. For these reasons, it promotes a more gradual rise in blood sugar levels.
+Furthermore, the type of fiber you eat may play a role.
+There are two kinds of fiber: insoluble and soluble. While both are important, soluble fiber specifically has been shown to lower blood sugar levels.
+Additionally, a high-fiber diet can help manage type 1 diabetes by improving blood sugar control and reducing blood sugar lows.
+Foods that are high in fiber include vegetables, fruits, legumes and whole grains.
+The recommended daily intake of fiber is about 25 grams for women and 38 grams for men. Thats about 14 grams for every 1,000 calories.
+BOTTOM LINE: Eating plenty of fiber can help with blood sugar control, and soluble dietary fiber is the most effective.
+</item>
+        <item>Drinking enough water may help you keep your blood sugar levels within healthy limits.
+In addition to preventing dehydration, it helps your kidneys flush out the excess blood sugar through urine.
+One observational study showed that those who drank more water had a lower risk of developing high blood sugar levels.
+Drinking water regularly re-hydrates the blood, lowers blood sugar levels and reduces diabetes risk.
+Keep in mind that water and other non-caloric beverages are best. Sugar-sweetened drinks raise blood glucose, drive weight gain and increase diabetes risk.
+BOTTOM LINE: Staying hydrated can reduce blood sugar levels and help prevent diabetes. Water is best.
+</item>
+        <item>Portion control helps regulate calorie intake and can lead to weight loss.
+Consequently, controlling your weight promotes healthy blood sugar levels and has been shown to reduce the risk of developing type 2 diabetes.
+Monitoring your serving sizes also helps reduce calorie intake and subsequent blood sugar spikes.
+Here are some helpful tips for controlling portions:
+Measure and weigh portions.
+Use smaller plates.
+Avoid all-you-can-eat restaurants.
+Read food labels and check the serving sizes.
+Keep a food journal.
+Eat slowly.
+BOTTOM LINE: The more control you have over your serving sizes the better control you will have over your blood sugar levels.
+</item>
+        <item>The glycemic index was developed to assess the bodys blood sugar response to foods that contain carbs.
+Both the amount and type of carbs determine how a food affects blood sugar levels.
+Eating low-glycemic-index foods has been shown to reduce long-term blood sugar levels in type 1 and type 2 diabetics.
+Although the glycemic index of foods is important, the amount of carbs consumed also matters.
+Foods with a low glycemic index include seafood, meat, eggs, oats, barley, beans, lentils, legumes, sweet potatoes, corn, yams, most fruits and non-starchy vegetables.
+BOTTOM LINE:Its important to choose foods with a low glycemic index and watch your overall carb intake.
+</item>
+        <item>Stress can affect your blood sugar levels.
+Hormones such as glucagon and cortisol are secreted during stress. These hormones cause blood sugar levels to go up.
+One study showed that exercise, relaxation and meditation significantly reduced stress and lowered blood sugar levels for students.
+Exercises and relaxation methods like yoga and mindfulness-based stress reduction can also correct insulin secretion problems in chronic diabetes.
+BOTTOM LINE:Controlling stress levels through exercise or relaxation methods such as yoga will help you control blood sugars.
+</item>
+        <item>"What gets measured gets managed."
+Measuring and monitoring blood glucose levels can also help you control them.
+For example, keeping track helps you determine whether you need to make adjustments in meals or medications.
+It will also help you find out how your body reacts to certain foods.
+Try measuring your levels every day, and keeping track of the numbers in a log.
+BOTTOM LINE: Checking your sugars and maintaining a log every day will help you adjust foods and medications to decrease your sugar levels.
+</item>
+        <item>Getting enough sleep feels great and is necessary for good health.
+Poor sleeping habits and a lack of rest also affect blood sugar levels and insulin sensitivity. They can increase appetite and promote weight gain.
+Sleep deprivation decreases the release of growth hormones and increases cortisol levels. Both of these play an important role in blood sugar control.
+Furthermore, good sleep is about both quantity and quality. It is best to get a sufficient amount of high-quality sleep every night.
+BOTTOM LINE: Good sleep helps maintain blood sugar control and promote a healthy weight. Poor sleep can disrupt important metabolic hormones.
+</item>
+        <item>High blood sugar levels and diabetes have also been linked to micronutrient deficiencies.
+Examples include deficiencies in the minerals chromium and magnesium.
+Chromium is involved in carb and fat metabolism. It also helps control blood sugar levels, and a lack of chromium may predispose you to carb intolerance.
+However, the mechanisms behind this are not completely known. Studies also report mixed findings.
+Two studies of diabetes patients showed that chromium had benefits for long-term blood sugar control. However, another study showed no benefits.
+Chromium-rich foods include egg yolks, whole-grain products, high-bran cereals, coffee, nuts, green beans, broccoli and meat.
+Magnesium has also been shown to benefit blood sugar levels, and magnesium deficiency has been linked to a higher risk of developing diabetes.
+In one study, people with the highest magnesium intake had a 47% lower risk of becoming diabetic.
+However, if you already eat plenty of magnesium-rich foods, then you probably will not benefit from supplements.
+Magnesium-rich foods include dark leafy greens, whole grains, fish, dark chocolate, bananas, avocados and beans.
+BOTTOM LINE: Eating foods rich in chromium and magnesium on a regular basis can help prevent deficiencies and reduce blood sugar problems.
+</item>
+
+    </string-array>
+    <string-array name="Urination">
+        <item>Common diabetic bladder symptoms:</item>
+        <item>1. Keep a bladder diary</item>
+        <item>2. Timed voiding </item>
+        <item>3. Double voiding</item>
+        <item>4. Bladder massage</item>
+        <item>5. Pelvic floor exercises </item>
+        <item>6. Keep your diabetes under control </item>
+        <item>7. Empty the bladder completely with massage or intermittent catheter</item>
+
+    </string-array>
+    <string-array name="urination_texts">
+       <item>1.	Frequent urination
+2.	Urinary urgency—the sensation of needing to urinate urgently.
+3.	Urinary incontinence—involuntary loss of urine
+4.	Urge incontinence—involuntary loss of urine preceded by an overwhelming urge to urinate
+5.	Hesitancy—difficulty starting a urinary stream
+6.	Urinary tract infections (UTI)
+7.	Decreased bladder sensation
+8.	Increased bladder capacity
+9.	Impaired bladder emptying—results in a higher volume of residual urine post urination
+The most common urodynamic findings (findings from tests that evaluate bladder function) in diabetic patients show impaired bladder sensation, increased residual urine after voiding, and decreased detrusor (bladder muscle) contractility. Many of the symptoms of diabetic bladder are the same as symptoms caused by diseases that are not diabetes.
+</item>
+        <item>The bladder diary helps you and your doctor keep track of and evaluate the amount and type of fluid you ingested and your voiding (urination) pattern. Your doctor may ask you to keep a bladder diary to start an initial investigation into your bladder condition. You may also be asked to measure and write down the amount of urine retained after the attempt to void. The retained urine is known as post-void residuals (PVR), and a normal level of PVR has not been established. A suggested normal range in older adults is between 50 mL and 150 mL.
+            PVR measurements are taken with an ultrasound immediately after voiding, or by using a catheter to drain and measure residuals.</item>
+        <item>Schedule your voiding every few hours and stick to it. You may want to discuss the time gap and frequency with your doctor. Help yourself stick to the schedule by setting reminders on your phone. If you have an overactive bladder as a result of diabetes,
+            your doctor may recommend bladder training, which is also about sticking to a voiding schedule even when you feel the urge to urinate. </item>
+        <item>To double void, void once and then repeat in 10-15 minutes. This practice is to help you drain your bladder completely. </item>
+        <item>To help yourself void completely, you can push your fist/palm into your bladder, which is located in your pelvis, above and behind your pubic bone.
+            Massage and push the urine out with a pressure you feel comfortable with. Do not apply excessive force to the point of discomfort. </item>
+        <item>You can do pelvic floor exercises to help yourself control urine flow.
+            Both men and women benefit from the same exercises. Perform pelvic floor exercises daily a couple of times each day with 10 repetitions.</item>
+        <item>If your bladder dysfunction is specifically caused by diabetes’ damage to your nerves, then controlling diabetes can have a modest effect on improving your condition.
+            Follow your doctor’s instructions on how to best deal with diabetes. </item>
+        <item>If you suffer from urinary retention as a result of diabetes,
+            you need to empty your bladder completely with a massage or an intermittent catheter.
+            Talk to your doctor to see if you need a catheter. When using a catheter,
+            it is extremely important to have sterile technique, since people with diabetes are at increased risk of infections in general.</item>
+
+    </string-array>
+</resources>

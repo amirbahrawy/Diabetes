@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Health_tips_Fragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health Tips:"
+            android:textSize="32dp"
+            android:padding="10dp"
+            android:textColor="@color/colorRed"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose State:"
+                android:textSize="24sp"
+                android:padding="10dp"
+                android:textColor="@color/colorRed"
+                />
+            <Spinner
+                android:id="@+id/health_spinner"
+                android:layout_width="160dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tips :-"
+            android:textSize="32dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorRed"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                 android:paddingStart="10dp"
+                android:id="@+id/header1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@color/gray"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/header2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@color/gray"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/header3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@color/gray"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/header4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@color/gray"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/header5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@color/gray"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/header6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@color/gray"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/header7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@color/gray"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/header8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@color/gray"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/header9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@color/gray"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/header10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                />
+            <TextView
+                android:paddingStart="10dp"
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=" Head Of ay haga"
+                android:textColor="@color/gray"
+                android:textSize="16dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

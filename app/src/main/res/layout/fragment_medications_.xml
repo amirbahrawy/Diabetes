@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Medications_Fragment">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medications:"
+            android:textSize="32dp"
+            android:padding="10dp"
+            android:textColor="@color/colorRed"
+            />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name of medications:"
+               android:textSize="24sp"
+               android:padding="10dp"
+               android:textColor="@color/colorRed"
+               />
+           <EditText
+               android:id="@+id/name_medicene"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@android:color/white"
+               android:hint="name of medicne"
+               android:layout_marginRight="5dp"
+               />
+       </LinearLayout>
+       <Button
+           android:id="@+id/add_more"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="15dp"
+           android:background="@drawable/shapes"
+           android:text="add more"
+           android:textColor="@color/colorWhite"
+           android:layout_gravity="center"
+           />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicine Library :"
+            android:textColor="@color/colorRed"
+            android:textSize="24sp"
+            android:padding="10dp"
+
+            />
+        <Spinner
+            android:id="@+id/medicene_library"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginLeft="75dp"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily Dose:"
+                android:textColor="@color/colorRed"
+                android:textSize="24sp"
+                android:padding="10dp"
+
+                />
+            <EditText
+                android:id="@+id/daily_dose"
+                android:layout_width="45dp"
+                android:layout_height="30dp"
+                android:background="@android:color/white"
+                android:hint="3"
+                android:gravity="center"
+                android:inputType="number"
+                android:layout_marginRight="5dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily Dose Time:"
+                android:textColor="@color/colorRed"
+                android:textSize="24sp"
+                android:padding="10dp"
+
+                />
+            <EditText
+                android:id="@+id/daily_time"
+                android:layout_width="75dp"
+                android:layout_height="30dp"
+                android:background="@android:color/white"
+                android:hint="7PM"
+                android:gravity="center"
+                android:editable="false"
+                android:layout_marginRight="5dp"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/add_to_alarm"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shapes"
+            android:text="add to alarm"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

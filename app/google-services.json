@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "560979474180",
+    "firebase_url": "https://diabetes-7be4f.firebaseio.com",
+    "project_id": "diabetes-7be4f",
+    "storage_bucket": "diabetes-7be4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560979474180:android:a1f03f8932414db4bc8251",
+        "android_client_info": {
+          "package_name": "com.example.android.diabetes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560979474180-mlq21eipndg86ncl532uvil188nllotc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcnT-Z7En4ivLvgRTxD39vAnPpyN0aL5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560979474180-mlq21eipndg86ncl532uvil188nllotc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
