@@ -1,3 +1,10 @@
+# DiaTrack
+This application is for diabetics as they can record their condition every day such as blood pressure, glucose ... etc
+And displays all his condition for all days and based on a certain value is displayed in a different color
+It can also activate the alarm for each drug specific to it and determine the duration of the repetition
+Based on his condition, he is guided by specific advice
+He can also press a button in the event of an emergency, and a text message will be automatically sent and the call will be sent to a number that will be specified when creating an account the first time
+
 # Features
 1- Responsive design.
 2-Room Database
