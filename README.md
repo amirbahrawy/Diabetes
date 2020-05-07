@@ -20,12 +20,11 @@
     //glide for uploading photos
     implementation 'com.github.bumptech.glide:glide:4.10.0'
 ```
+![Screenshot_20200504-211326](https://user-images.githubusercontent.com/38887148/81242081-84308100-900c-11ea-9c70-f5e0cff86916.jpg)
+![Screenshot_20200504-211332](https://user-images.githubusercontent.com/38887148/81242083-85fa4480-900c-11ea-8be4-d15f4e92a6be.jpg)
+![Screenshot_20200504-211336](https://user-images.githubusercontent.com/38887148/81242085-872b7180-900c-11ea-9879-fbbdc733bfb7.jpg)
+![Screenshot_20200504-211347](https://user-images.githubusercontent.com/38887148/81242086-87c40800-900c-11ea-8c49-26da347de500.jpg)
+![Screenshot_20200504-211351](https://user-images.githubusercontent.com/38887148/81242090-88f53500-900c-11ea-9ab8-2011b54ccd46.jpg)
+![Screenshot_20200504-211355](https://user-images.githubusercontent.com/38887148/81242091-898dcb80-900c-11ea-9076-9b49c408b95b.jpg)
+![Screenshot_20200504-211358](https://user-images.githubusercontent.com/38887148/81242093-8a266200-900c-11ea-97b8-6a003d2c9aae.jpg)
 
-![Screenshot_20200504-211336](https://user-images.githubusercontent.com/38887148/81241358-47fc2100-900a-11ea-8ff1-15f4d23c0cd2.jpg)
-![Screenshot_20200504-211347](https://user-images.githubusercontent.com/38887148/81241360-4a5e7b00-900a-11ea-97f9-fbf3134a3bbd.jpg)
-
-![Screenshot_20200504-211326](https://user-images.githubusercontent.com/38887148/81241340-3e72b900-900a-11ea-9e9c-2293fccab23e.jpg)
-![Screenshot_20200504-211358](https://user-images.githubusercontent.com/38887148/81241343-403c7c80-900a-11ea-90e3-ec7f120bffd2.jpg)
-![Screenshot_20200504-211355](https://user-images.githubusercontent.com/38887148/81241347-43376d00-900a-11ea-8aed-fe4114573a1a.jpg)
-![Screenshot_20200504-211332](https://user-images.githubusercontent.com/38887148/81241351-46325d80-900a-11ea-83c8-231f39ba195f.jpg)
-![Screenshot_20200504-211351](https://user-images.githubusercontent.com/38887148/81241368-4d596b80-900a-11ea-9f77-733cd3e66b55.jpg)
