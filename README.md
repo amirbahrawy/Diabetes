@@ -18,15 +18,16 @@
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
 ```
-![Screenshot_20200504-210019](https://user-images.githubusercontent.com/38887148/81243535-67964800-9010-11ea-8640-a5fbc32442ce.jpg)
-![Screenshot_20200504-210055](https://user-images.githubusercontent.com/38887148/81243539-69f8a200-9010-11ea-8add-ed9449e4fd8b.jpg)
-![Screenshot_20200504-210057](https://user-images.githubusercontent.com/38887148/81243541-6a913880-9010-11ea-8150-33fe3fc6f475.jpg)
-![Screenshot_20200504-210135](https://user-images.githubusercontent.com/38887148/81243544-6b29cf00-9010-11ea-9db0-8b3352d4a427.jpg)
-![Screenshot_20200504-210142](https://user-images.githubusercontent.com/38887148/81243546-6bc26580-9010-11ea-847b-40008b7811d9.jpg)
-![Screenshot_20200504-210150](https://user-images.githubusercontent.com/38887148/81243547-6cf39280-9010-11ea-8020-e00662b744b4.jpg)
-![Screenshot_20200504-210202](https://user-images.githubusercontent.com/38887148/81243548-6d8c2900-9010-11ea-9efa-d6d8416cf4de.jpg)
-![Screenshot_20200504-210206](https://user-images.githubusercontent.com/38887148/81243551-6d8c2900-9010-11ea-92c8-f5b512b88f31.jpg)
-![Screenshot_20200504-210212](https://user-images.githubusercontent.com/38887148/81243553-6e24bf80-9010-11ea-835a-0a3c75294d88.jpg)
-![Screenshot_20200504-210215](https://user-images.githubusercontent.com/38887148/81243557-6fee8300-9010-11ea-9cab-d9e367cdaf5b.jpg)
+![Screenshot_20200504-210019](https://user-images.githubusercontent.com/38887148/81243742-f905ba00-9010-11ea-845f-1d617fdc51be.jpg)
+![Screenshot_20200504-210055](https://user-images.githubusercontent.com/38887148/81243746-facf7d80-9010-11ea-8ef3-695cacecffa0.jpg)
+![Screenshot_20200504-210057](https://user-images.githubusercontent.com/38887148/81243747-facf7d80-9010-11ea-9993-1ed844409f3c.jpg)
+![Screenshot_20200504-210135](https://user-images.githubusercontent.com/38887148/81243748-fb681400-9010-11ea-96e6-82203ce54554.jpg)
+![Screenshot_20200504-210142](https://user-images.githubusercontent.com/38887148/81243749-fc994100-9010-11ea-9feb-7155825a6214.jpg)
+![Screenshot_20200504-210150](https://user-images.githubusercontent.com/38887148/81243752-fc994100-9010-11ea-987a-e2032c01be24.jpg)
+![Screenshot_20200504-210202](https://user-images.githubusercontent.com/38887148/81243753-fd31d780-9010-11ea-99b6-6be51e829bf3.jpg)
+![Screenshot_20200504-210206](https://user-images.githubusercontent.com/38887148/81243754-fdca6e00-9010-11ea-9f12-a345253d2a78.jpg)
+![Screenshot_20200504-210212](https://user-images.githubusercontent.com/38887148/81243755-fe630480-9010-11ea-960d-80888aaa6625.jpg)
+![Screenshot_20200504-210215](https://user-images.githubusercontent.com/38887148/81243758-fefb9b00-9010-11ea-9302-940e66889c0c.jpg)
+
 
 
