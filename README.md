@@ -1,9 +1,9 @@
 # DiaTrack
-This application is for diabetics as they can record their condition every day such as blood pressure, glucose ... etc
-And displays all his condition for all days and based on a certain value is displayed in a different color
-It can also activate the alarm for each drug specific to it and determine the duration of the repetition
-Based on his condition, he is guided by specific advice
-He can also press a button in the event of an emergency, and a text message will be automatically sent and the call will be sent to a number that will be specified when creating an account the first time
+DiatrackApp is a mobile application designed for individuals with diabetes to help them keep track of their daily condition, including blood pressure, glucose levels, and more. The app displays the user's condition data for all days, highlighting certain values in different colors to indicate specific trends.
+
+Additionally, the app includes an alarm feature for reminding users to take their medicine on time, with the option to specify the duration of the repetition. Based on the user's condition, the app also provides specific advice to help manage their diabetes.
+
+In case of an emergency, the user can press a button, which will automatically send a text message and make a call to a pre-specified number set up during the account creation process. DiatrackApp was developed using Room Database, FirebaseAuth, Alarm Manager, and Broadcast Receiver technologies to provide a comprehensive and user-friendly experience for individuals with diabetes
 
 # Features
 1- Responsive design.
